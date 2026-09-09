@@ -128,7 +128,7 @@ function App() {
 
   const updateValue = (key, value) => {
     setValues((previous) => ({
-      ...previous,
+      ...previous ,
       [key]: value
     }));
   };
